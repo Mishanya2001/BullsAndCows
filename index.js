@@ -30,7 +30,7 @@ let rand = uniq((Math.random() * 10000).toFixed(0).split('')).join('');
 while (rand < 1000) {
     rand = uniq((Math.random() * 10000).toFixed(0).split('')).join('');
 }
-let attempts = 0;
+let attempts = 1;
 const reader = require("readline-sync"); //npm install readline-sync
 while (true) {
     let guess = reader.question("Attempt: ");
